@@ -23,10 +23,6 @@ set number
 set statusline=%{fugitive#statusline()}
 " Add Other
 set statusline+=%<\ %n:%f\ %m%r%y[%{&fo}]%=%-35.(L\ %l\ /\ %L;\ C\ %c%V\ (%P)%)
-" syntastic status line
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors and syntax highlighting
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
